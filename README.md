@@ -1,4 +1,4 @@
-Golang HRMS APIs with MongoDB. Create, read, update and delete HR employee with Postman. 
+Golang Bookstore database with MySQL. Create, read, update and delete book data with Postman. 
 
 ## Technologies Used
 * Golang
