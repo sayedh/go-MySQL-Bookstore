@@ -13,19 +13,24 @@ Golang HRMS APIs with MongoDB. Create, read, update and delete HR employee with 
 
 
 ## Executing program
-* Download the repository to your computer, go to project file, and run the code
+* Download the repository to your computer and go to project folder
 ```
 git clone https://github.com/sayedh/go-MySQL-Bookstore
 cd go-MySQL-Bookstore
-cd cmd/main/
+code .
+```
+
+
+* Update app.go file with your MySQL identity
+  * (username):(password)@/(schema) EX: root:mysql@/simplerest
+ 
+
+
+* Run the code
+```
 go mod tidy
 go run main.go
 ```
-* Update app.go file with your MySQL identity
-  * <username>:<password>@/<schema> EX: root:mysql@/simplerest
-  
-* Download the repository to your computer, go to project file, and run the code
-
   
 * Test APIs with Postman
   * Create a POST request to add data with http://localhost:3000/employee
