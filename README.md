@@ -43,7 +43,8 @@ go run main.go
  ```
  * Create a GET request to get data by ID with localhost:9010/book/2 (<-- 2 is the ID of the data)
  
- * Create a PUT request to update book data with localhost:9010/book/2 (<-- 2 is the ID of the data, can be changed to desired data that needs to be updated)
+ * Create a PUT request to update book data with localhost:9010/book/2
+   * (2 is the ID of the data, can be changed to desired data that needs to be updated)
  ```
 {
     "ID": 2,
@@ -53,4 +54,5 @@ go run main.go
 }
  ```
  * Create a GET request to get all data localhost:9010/book
- * Create a DELETE request with localhost:9010/book/3 (<-- 3 is the ID of the data, can be changed to desired data that needs to be deleted)
+ * Create a DELETE request with localhost:9010/book/3
+   * (3 is the ID of the data, can be changed to desired data that needs to be deleted)
